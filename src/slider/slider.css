@@ -1,0 +1,145 @@
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.slider{
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  top: 20vw;
+  
+  /* background-color: red; */
+
+  /* position: relative;  top: 10vw; */
+}
+.slider h1{
+  position:sticky ;
+  top: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.horizontal-scroll-wrapper{
+  position:sticky;
+  /* display:block; */
+  /* top:100px; */
+  /* left:-50vw; */
+  margin-left: -40vw;
+  width:100vh;
+  height: 90vw;
+  /* max-height:500px; */
+  /* margin:0; */
+  /* background:#abc; */
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+ 
+}
+.horizontal-scroll-wrapper > div{
+  display:block;
+  padding:5px;
+  /* background:rgb(208, 29, 119); */
+  transform:rotate(90deg);
+  transform-origin: right top;
+  /* border: 5px soild red; */
+}
+
+.squares{
+  padding:700px 0 0 0;
+   
+}
+
+.squares > div{
+  width:650px;
+  height:650px;
+  margin:200px;
+  
+}
+
+.rectangles{
+  top:100px;
+  padding:100px 0 0 0;
+  border: 5px soild red;
+}
+.rectangles > div{
+  width:140px;
+  height:60px;
+  margin:50px 10px;
+  padding:5px;
+  background:#cab;
+  transform:rotate(90deg) translateY(80px);
+  transform-origin: right top;
+  border: 5px soild red;
+}
+.sliding1{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/4.jpg');
+      background-size: cover;
+
+}
+.sliding2{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/5.jpg');
+      background-size: cover;
+      transition: 1s ease;
+       
+
+}
+.sliding3{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/6.jpg');
+      background-size: cover;
+
+}
+.sliding4{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/7.jpg');
+      background-size: cover;
+
+}
+.sliding5{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/3.jpg');
+      background-size: cover;
+
+}
+.sliding6{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/1.jpg');
+      background-size: cover;
+
+}
+.sliding7{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/3.jpg');
+      background-size: cover;
+
+}
+.sliding8{
+  background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      /* url(https://www.bing.com/images/search?view=detailV2&ccid=X8J8CXgq&id=0D8E9D3141BEF3208D4F71ED8AFBABB7A7CBA32A&thid=OIP.X8J8CXgq7NRNZ8zPyMahwgHaEJ&mediaurl=https%3a%2f%2fwww.techlofy.com%2fwp-content%2fuploads%2f2021%2f05%2f9-Strategies-to-Use-AI-Tools-on-Your-Business-Website-scaled.jpg&exph=924&expw=1650&q=AI+Tools+images&simid=608017084430433548&FORM=IRPRST&ck=16C5D93E4A4DA79F6E050F91EF91AB70&selectedIndex=5); */
+      url('../images/3.jpg');
+      background-size: cover;
+
+}
+ 
